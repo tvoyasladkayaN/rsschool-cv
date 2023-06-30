@@ -1,7 +1,7 @@
 #Nina Merkulova
 ##Web Design & Developer
 
-photo
+![my photo](/rsschool-cv/img/IMG_7352.jpg "мое фото")
 
 ###Contact
 *******
