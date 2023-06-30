@@ -1,7 +1,7 @@
 #Nina Merkulova
 ##Web Design & Developer
 
-![my photo](/rsschool-cv/img/IMG_7352.jpg "мое фото")
+![my photo](/rsschool-cv/img/IMG_7352.jpg "my photo")
 
 ###Contact
 *******
@@ -42,6 +42,8 @@ function multiply(a, b){
  return a * b;
 }
 ```
+###[Experience](https://tvoyasladkayan.github.io/rsschool-cv/)
+
 ###About me
 **********
 _Hello, I am Nina and six month ago, I had no idea how the frontend differs from the backend. But the book on the basics of HTML got into my hands, and I realized, that I had found a case that I was really interested in. Sinse then, all my free time has been devoted to the theory and practtice of frontend development. This is the buisness in which I would like to develop further._
