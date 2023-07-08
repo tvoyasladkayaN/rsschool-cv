@@ -9,28 +9,32 @@
 </head>
 <body>
     <header>
-        <div class="conteiner">
+        <div class="container">
+            <div id="profile">
             <h1>Nina Merkulova</h1>
             <h2>Web Design & Developer</h2>
 
             <img src="img/IMG_7352.jpg" alt="my photo" height="300px" width="210px">
+            </div>
 
             <nav>
                 <ul class="navList">
-                    <li><a href="#contactInfo">Contact</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#codeEx">Code examples</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#aboutMe">About me</a></li>
+                    <li class="navItem"><a href="#contactInfo" class="navLink">Contact</a></li>
+                    <li class="navItem"><a href="#education" class="navLink">Education</a></li>
+                    <li class="navItem"><a href="#skills" class="navLink">Skills</a></li>
+                    <li class="navItem"><a href="#codeEx" class="navLink">Code examples</a></li>
+                    <li class="navItem"><a href="#experience" class="navLink">Experience</a></li>
+                    <li class="navItem"><a href="#aboutMe"class="navLink">About me</a></li>
                 </ul>
             </nav>
 
         </div>
     </header>
 
-    <main>
-        <div class="conteiner">
+    <main class="mainContainer">
+        <div class="container">
+            <div class="columns">
+            <div class="firstColumn">
             <section id="contactInfo">
                  <h3>Contact</h3>
                  <ul>
@@ -40,9 +44,12 @@
                  </ul>
             </section>
 
+            
             <section id="education">
                 <h3>Education</h3>
-                <p><strong>Russian University of Peoples Friendship</strong>, Faculty of Medcine <em>2003-2011</em></p>
+                <ul>
+                <li><strong>Russian University of Peoples Friendship</strong>, Faculty of Medcine <em>2003-2011</em></li>
+                </ul>
 
                 <h3>Courses</h3>
                 <ul>
@@ -51,9 +58,12 @@
                 </ul>
 
                 <h3>English</h3>
-                <p>Upper intermediate</p>
+                <ul>
+                <li>Upper intermediate</li>
+                </ul>
             </section>
-
+            </div>
+            <div class="secondColumn">
             <section id="skills">
                 <h3>Skills</h3>
                 <ul>
@@ -71,6 +81,7 @@
                     <li>Teamwork</li>
                 </ul>
             </section>
+        
 
             <section id="codeEx">
                 <h3>Code Examples</h3>
@@ -81,24 +92,30 @@
                    </code>
                 </pre>
             </section>
-
+ 
             <section id="experience">
-                <h3><a href="https://tvoyasladkayan.github.io/rsschool-cv/">Experience</a></h3>
+                <h3><a href="https://tvoyasladkayan.github.io/rsschool-cv/" class="experienceLink">Experience</a></h3>
             </section>
+            </div>
+            </div>
 
             <section id="aboutMe">
+                <h3>About me</h3>
                 <p><em>Hello, I am Nina and six month ago, I had no idea how the frontend differs from the backend. But the book on the basics of HTML got into my hands, and I realized, that I had found a case that I was really interested in. Sinse then, all my free time has been devoted to the theory and practtice of frontend development. This is the buisness in which I would like to develop further.</em></p>
             </section>
         </div>
     </main>
 
     <footer>
-        <div class="conteiner">
+        <div class="container">
 
+            <img class="logoRS" src="https://rs.school/images/rs_school_js.svg" alt="logo RSschool" height="100px" width="150px">
+
+        <div class="footerInfo">
             <p><a href="https://github.com/tvoyasladkayaN/rsschool-cv">My github</a></p>
-            <p>2023</p>
-            <img class="logoRS" src="https://rs.school/images/rs_school_js.svg" alt="logo RSschool" height="50px" width="80px">
             <p><a href="https://rs.school/js/">JavaScript/Front-end course</a></p>
+            <p>2023</p>
+        </div>
 
         </div>
     </footer>
