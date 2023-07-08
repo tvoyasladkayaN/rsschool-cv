@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #E2D6CE;
+    color: #6D6D6E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8CAEC9;
+    transition: .3s;
+}
+
+.experienceLink {
+  color: #E3A061;
+}
+
+a:hover {
+    color: #1874A0;
+}
+
+h1, h2, h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  color: #E3A061;
+}
+
+.container {
+  border-bottom: 5px solid #E3A061;
+  border-radius: 5%;
+}
+#profile {
+  text-align: center;
+}
+#profile img {
+  border-radius: 15%;
+}
+
+ #aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#contactInfo, #education {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+#skills, #codeEx, #experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+pre {
+  border: 2px solid #8CAEC9 ;
+  background-color: #c9e1f5;
+  padding: 10px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
